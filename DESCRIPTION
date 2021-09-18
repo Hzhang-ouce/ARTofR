@@ -1,6 +1,6 @@
 Package: ARTofR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.1
+Title: make pretty comments and headers
+Version: 0.2
 Authors@R: 
     person(given = "Huanyuan",
            family = "Zhang",

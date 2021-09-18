@@ -45,7 +45,7 @@ call \code{xxx_divider1('mystring')} will make a divider with 'mystring'
 #...........................................
 #  xxx_divider1('XXXXX')
 #...............XXXXX.......................
-# pls note that a long text string will make output ugly
+# pls note that you must provide a sentence less than 65 character
 # call xxx_divider1() will grab text from clipboard,
 # call xxx_divider1('') will make a line without text,
 # call xxx_divider1('mystring') will make a divider with 'mystring'
