@@ -28,14 +28,15 @@
 #' #...........................................
 #' #  xxx_divider1('XXXXX')
 #' #...............XXXXX.......................
-#' # pls note that a long text string will make output ugly
+#' # pls note that you must provide a sentence less than 65 character
 #' # call xxx_divider1() will grab text from clipboard,
 #' # call xxx_divider1('') will make a line without text,
 #' # call xxx_divider1('mystring') will make a divider with 'mystring'
 xxx_divider2<-function(mystring=NULL){
   if (is.null(mystring)) {
     mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
-  }
+    mystring<-mystring[1]
+    }
   if (nchar(mystring)==0) {
     bannerCommenter::boxup("",bandChar = '~')
   }else{
@@ -52,7 +53,8 @@ xxx_divider2<-function(mystring=NULL){
 xxx_divider1<-function(mystring=NULL){
   if (is.null(mystring)) {
     mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
-  }
+    mystring<-mystring[1]
+    }
   text <- mystring
   if (length(text) == 0) { text <- ""}
   nt <- 1
@@ -65,11 +67,8 @@ xxx_divider1<-function(mystring=NULL){
   mid <- character(nt)
   hashes = 65
   blanks <- (hashes - leftSideHashes - rightSideHashes - n0)
-  if (!length(blanks)==1) {
-    stop('you must give me a sentence less than 65 characters')
-  }
   if (blanks<0) {
-    stop('you must give me a sentence less than 65 characters')
+    stop('you must provide a sentence less than 65 character')
   }
   blanks1 = round(blanks/2)
   blanks2 <- blanks - blanks1
