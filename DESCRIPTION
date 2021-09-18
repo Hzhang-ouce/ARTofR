@@ -1,16 +1,20 @@
 Package: ARTofR
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Huanyuan",
+           family = "Zhang",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "hyzhang1996@gmail.com",
+           comment = c(ORCID = "0000-0003-4801-8771"))
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    bannerCommenter,
+    clipr,
+    methods,
+    stringr
