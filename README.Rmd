@@ -28,13 +28,12 @@ You can install the released version of ARTofR from [GitHub](https://github.com/
 # install.packages("devtools")
 devtools::install_github("Hzhang-ouce/ARTofR")
 ```
-## Example
+## COMMON WORKFLOW OF THIS PACKAGE
 
-COMMON WORKFLOW OF THIS PACKAGE
 1. type your text in any text editor
 2. copy your text
 3. call xxx_box() or xxx_box1() etc
 4. Check the output in console, NO NEED to copy them
 5. paste into your R script
 
-**Read instruction_page.pdf**
+Read **instruction_page.pdf** for more information
