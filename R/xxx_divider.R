@@ -65,6 +65,9 @@ xxx_divider1<-function(mystring=NULL){
   mid <- character(nt)
   hashes = 65
   blanks <- (hashes - leftSideHashes - rightSideHashes - n0)
+  if (blanks<0) {
+    stop('you must give me a line less than 65 characters')
+  }
   blanks1 = round(blanks/2)
   blanks2 <- blanks - blanks1
   left <- paste(c('     ',leftHash, rep(".", blanks1)), collapse = "")
