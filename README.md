@@ -10,6 +10,9 @@ ARTofR is to make something like this:
 
 > \#……………………ARTofR line break…………………..
 
+It is a wrapper of bannerCommenter::banner(), written with thanks to the
+author, Bill Venables
+
 ## Installation
 
 You can install the released version of ARTofR from
