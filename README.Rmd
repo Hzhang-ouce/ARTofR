@@ -128,9 +128,11 @@ Check it here: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/mast
 
 **Copy this paragraph:**
 
+```{r, include = T,eval=FALSE}
 I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat.
 I recommended this pacakge to all my families.
 Yes, even my grandmother like it!
+```
 
 **Then in your R console do:**
 

@@ -115,10 +115,11 @@ Check it here:
 
 **Copy this paragraph:**
 
-I used ARTofR everyday and it makes my R script so neat. I used ARTofR
-everyday and it makes my R script so neat. I used ARTofR everyday and it
-makes my R script so neat. I recommended this pacakge to all my
-families. Yes, even my grandmother like it!
+``` r
+I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat.
+I recommended this pacakge to all my families.
+Yes, even my grandmother like it!
+```
 
 **Then in your R console do:**
 
