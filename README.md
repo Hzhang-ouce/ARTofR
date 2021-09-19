@@ -4,6 +4,10 @@
 # ARTofR
 
 <!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.com/Hzhang-ouce/ARTofR.svg?branch=master)](https://travis-ci.com/Hzhang-ouce/ARTofR)
+[![R-CMD-check](https://github.com/Hzhang-ouce/ARTofR/workflows/R-CMD-check/badge.svg)](https://github.com/Hzhang-ouce/ARTofR/actions)
 <!-- badges: end -->
 
 ARTofR is to make something like this:
