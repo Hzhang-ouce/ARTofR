@@ -142,31 +142,54 @@ xxx_list1<-function(mystring=NULL, center=F){
 
 }
 
+#...............................................................................
+#                                                                              .
+#  I used ARTofR everyday and it makes my R script so neat. I used ARTofR      .
+#  everyday and it makes my R script so neat. I used ARTofR everyday and it    .
+#  makes my R script so neat.                                                  .
+#                                                                              .
+#  I recommended this pacakge to all my families.                              .
+#                                                                              .
+#  Yes, even my grandmother like it!                                           .
+#                                                                              .
+#...............................................................................
 
 
-#  'data.frame': 480 obs. of 11 variables:
-#
-#  $ plot_code : Factor w/ 1 level "ABC-01": 1 1 1 1 1 1 1 1 1 1 ...
-#
-#  $ year : num 2018 2018 2018 2018 2018 ...
-#
-#  $ month : num 12 12 12 12 12 12 12 12 12 12 ...
-#
-#  $ sub_plot : Factor w/ 4 levels "1","2","3","4": 1 1 1 1 1 1 1 1 1 1 ...
-#
-#  $ Treatment_code: Factor w/ 2 levels "caged","open": 1 1 1 1 1 2 2 2 2
-#  2 ...
-#
-#  $ quadrat_num : Factor w/ 30 levels "A1","A2","A3",..: 1 2 3 4 5 6 7 8 9
-#  10 ...
-#
-#  $ Plants_type : Factor w/ 4 levels "grass","grass ",..: 1 1 1 1 1 1 1 1 1
-#  1 ...
-#
-#  $ dry_mass_g : num 32.1 95 30.5 55.4 32.8 ...
-#
-#  $ note : chr "" "" "" "" ...
-#
-#  $ is_stock : Factor w/ 2 levels "N","Y": 2 2 2 2 2 2 2 2 2 2 ...
-#
-#  $ day : num 15 15 15 15 15 15 15 15 15 15 ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
