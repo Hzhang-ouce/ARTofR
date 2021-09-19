@@ -34,7 +34,7 @@ devtools::install_github("Hzhang-ouce/ARTofR")
 For example:
 ![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot138092.png)
 
-## All functions:
+# All functions:
 
 ### Title
 
