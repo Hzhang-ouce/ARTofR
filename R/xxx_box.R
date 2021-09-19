@@ -28,7 +28,7 @@
 
 xxx_box<-function(mystring=NULL, center=F){
   if (is.null(mystring)) {
-    mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
+    mystring<-clipr::read_clip(allow_non_interactive = TRUE)
 
   }
 
@@ -57,7 +57,7 @@ xxx_box<-function(mystring=NULL, center=F){
 #' @export
 xxx_box1<-function(mystring=NULL, center=F){
   if (is.null(mystring)) {
-    mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
+    mystring<-clipr::read_clip(allow_non_interactive = TRUE)
   }
 
 
@@ -86,7 +86,7 @@ xxx_box1<-function(mystring=NULL, center=F){
 #' @export
 xxx_list<-function(mystring=NULL, center=F){
   if (is.null(mystring)) {
-    mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
+    mystring<-clipr::read_clip(allow_non_interactive = TRUE)
 
   }
 
@@ -107,7 +107,7 @@ xxx_list<-function(mystring=NULL, center=F){
   storage3[2:(length(storage2)+1)]<-storage2
   storage3[1]<-' '
   storage3[length(storage2)+2]<-' '#storage 3 just to create empty space before and after paragraph
-  my_own_banner(storage2, leftSideHashes = 1, rightSideHashes = 0, centre = FALSE,
+  my_own_banner(storage2, leftSideHashes = 1, rightSideHashes = 0, centre = center,
                 minHashes = 0, numLines = 0)
 
 }
@@ -117,7 +117,7 @@ xxx_list<-function(mystring=NULL, center=F){
 #' @export
 xxx_list1<-function(mystring=NULL, center=F){
   if (is.null(mystring)) {
-    mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
+    mystring<-clipr::read_clip(allow_non_interactive = TRUE)
 
   }
 
@@ -138,7 +138,7 @@ xxx_list1<-function(mystring=NULL, center=F){
   storage3[2:(length(storage2)+1)]<-storage2
   storage3[1]<-' '
   storage3[length(storage2)+2]<-' '#storage 3 just to create empty space before and after paragraph
-  my_own_banner(storage3, center=F, bandChar = ".",leftSideHashes=1, rightSideHashes = 1)
+  my_own_banner(storage3, center=center, bandChar = ".",leftSideHashes=1, rightSideHashes = 1)
 
 }
 

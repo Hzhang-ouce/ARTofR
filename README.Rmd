@@ -40,3 +40,130 @@ devtools::install_github("Hzhang-ouce/ARTofR")
 5. paste into your R script
 
 Read [instruction_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/instruction_page.pdf) for more information
+
+## All functions:
+
+### Title
+
+```{r, include = T}
+  library(ARTofR)
+  xxx_title1('ARTofR')
+  xxx_title2('ARTofR')
+  xxx_title3('ARTofR')
+```
+
+### line break
+
+```{r, include = T}
+  library(ARTofR)
+  xxx_divider1('')
+  xxx_divider1('ARTofR')
+  xxx_divider2('')
+  xxx_divider2('ARTofR')
+```
+
+### Paragraph
+
+```{r, include = T}
+
+   xxx_box1('ARTofRARTofRARTofR')
+   xxx_box1('ARTofRARTofRARTofR',center = T)
+
+```
+
+**Copy this paragraph:**
+
+I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat.
+I recommended this pacakge to all my families.
+Yes, even my grandmother like it!
+
+**Then in your R console do:**
+
+```{r, include = T,eval=FALSE}
+
+  xxx_box()
+
+#  I used ARTofR everyday and it makes my R script so neat. I used ARTofR       
+#  everyday and it makes my R script so neat. I used ARTofR everyday and it     
+#  makes my R script so neat.                                                   
+#                                                                               
+#  I recommended this pacakge to all my families.                               
+#                                                                               
+#  Yes, even my grandmother like it!                                        
+
+
+  xxx_box1()
+  
+#...............................................................................
+#                                                                              .
+#  I used ARTofR everyday and it makes my R script so neat. I used ARTofR      .
+#  everyday and it makes my R script so neat. I used ARTofR everyday and it    .
+#  makes my R script so neat.                                                  .
+#                                                                              .
+#  I recommended this pacakge to all my families.                              .
+#                                                                              .
+#  Yes, even my grandmother like it!                                           .
+#                                                                              .
+#...............................................................................
+
+
+  xxx_box1(center = T)
+  
+#...............................................................................
+#                                                                              .
+#    I used ARTofR everyday and it makes my R script so neat. I used ARTofR    .
+#   everyday and it makes my R script so neat. I used ARTofR everyday and it   .
+#                          makes my R script so neat.                          .
+#                                                                              .
+#                I recommended this pacakge to all my families.                .
+#                                                                              .
+#                      Yes, even my grandmother like it!                       .
+#                                                                              .
+#...............................................................................
+
+
+```
+
+### List
+
+**Copy this list:**
+
+> 
+1. I used ARTofR everyday
+2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat.
+3. I recommended this pacakge to all my families. I recommended this pacakge to all my families.
+4. Yes, even my grandmother like it!
+
+```{r, include = T,eval=FALSE}
+  xxx_list()
+
+#  1. I used ARTofR everyday                                                
+#  2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR
+#     everyday and it makes my R script so neat.                            
+#  3. I recommended this pacakge to all my families. I recommended this     
+#     pacakge to all my families.                                           
+#  4. Yes, even my grandmother like it!                                     
+
+  xxx_list1()
+  
+#...............................................................................
+#                                                                              .
+#  1. I used ARTofR everyday                                                   .
+#  2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR   .
+#     everyday and it makes my R script so neat.                               .
+#  3. I recommended this pacakge to all my families. I recommended this        .
+#     pacakge to all my families.                                              .
+#  4. Yes, even my grandmother like it!                                        .
+#                                                                              .
+#...............................................................................
+
+```
+
+  xxx_list1(center = T) is not recommended, use xxx_box(center=T)
+  
+## Tips and warnnings:
+
+*Only Mac and windows were tested with this package. 
+*For all functions, you can use, for example, xxx_divider2('') in non-interactive mode to insert a break line in your text output
+*Once text was decorated, it would be difficult to restore. It is best to save your text in a plain-text file and copy from there, so that you can modify in the future. 
+

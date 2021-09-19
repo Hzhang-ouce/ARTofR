@@ -31,3 +31,163 @@ devtools::install_github("Hzhang-ouce/ARTofR")
 Read
 [instruction\_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/instruction_page.pdf)
 for more information
+
+## All functions:
+
+### Title
+
+``` r
+  library(ARTofR)
+  xxx_title1('ARTofR')
+#> 
+#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#> ##                                                                            ~~
+#> ##                                   ARTOFR                                 ----
+#> ##                                                                            ~~
+#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  xxx_title2('ARTofR')
+#> 
+#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#> ##                                    ARTofR                                ----
+#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  xxx_title3('ARTofR')
+#> ##~~~~~~~~~~~~~~~~
+#> ##  ~ ARTofR  ----
+#> ##~~~~~~~~~~~~~~~~
+```
+
+### line break
+
+``` r
+  library(ARTofR)
+  xxx_divider1('')
+#>      #................................................................
+  xxx_divider1('ARTofR')
+#>      #.............................ARTofR.............................
+  xxx_divider2('')
+#> 
+#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  xxx_divider2('ARTofR')
+#> 
+#> 
+#> #                            ARTofR                            ~~~
+#> #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
+### Paragraph
+
+``` r
+   xxx_box1('ARTofRARTofRARTofR')
+#> 
+#> #...............................................................................
+#> #                                                                              .
+#> #  ARTofRARTofRARTofR                                                          .
+#> #                                                                              .
+#> #...............................................................................
+   xxx_box1('ARTofRARTofRARTofR',center = T)
+#> 
+#> #...............................................................................
+#> #                                                                              .
+#> #                              ARTofRARTofRARTofR                              .
+#> #                                                                              .
+#> #...............................................................................
+```
+
+**Copy this paragraph:**
+
+I used ARTofR everyday and it makes my R script so neat. I used ARTofR
+everyday and it makes my R script so neat. I used ARTofR everyday and it
+makes my R script so neat. I recommended this pacakge to all my
+families. Yes, even my grandmother like it!
+
+**Then in your R console do:**
+
+``` r
+  xxx_box()
+
+#  I used ARTofR everyday and it makes my R script so neat. I used ARTofR       
+#  everyday and it makes my R script so neat. I used ARTofR everyday and it     
+#  makes my R script so neat.                                                   
+#                                                                               
+#  I recommended this pacakge to all my families.                               
+#                                                                               
+#  Yes, even my grandmother like it!                                        
+
+
+  xxx_box1()
+  
+#...............................................................................
+#                                                                              .
+#  I used ARTofR everyday and it makes my R script so neat. I used ARTofR      .
+#  everyday and it makes my R script so neat. I used ARTofR everyday and it    .
+#  makes my R script so neat.                                                  .
+#                                                                              .
+#  I recommended this pacakge to all my families.                              .
+#                                                                              .
+#  Yes, even my grandmother like it!                                           .
+#                                                                              .
+#...............................................................................
+
+
+  xxx_box1(center = T)
+  
+#...............................................................................
+#                                                                              .
+#    I used ARTofR everyday and it makes my R script so neat. I used ARTofR    .
+#   everyday and it makes my R script so neat. I used ARTofR everyday and it   .
+#                          makes my R script so neat.                          .
+#                                                                              .
+#                I recommended this pacakge to all my families.                .
+#                                                                              .
+#                      Yes, even my grandmother like it!                       .
+#                                                                              .
+#...............................................................................
+```
+
+### List
+
+**Copy this list:**
+
+> 1.  I used ARTofR everyday
+> 2.  I used ARTofR everyday and it makes my R script so neat. I used
+>     ARTofR everyday and it makes my R script so neat.
+> 3.  I recommended this pacakge to all my families. I recommended this
+>     pacakge to all my families.
+> 4.  Yes, even my grandmother like it!
+
+``` r
+  xxx_list()
+
+#  1. I used ARTofR everyday                                                
+#  2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR
+#     everyday and it makes my R script so neat.                            
+#  3. I recommended this pacakge to all my families. I recommended this     
+#     pacakge to all my families.                                           
+#  4. Yes, even my grandmother like it!                                     
+
+  xxx_list1()
+  
+#...............................................................................
+#                                                                              .
+#  1. I used ARTofR everyday                                                   .
+#  2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR   .
+#     everyday and it makes my R script so neat.                               .
+#  3. I recommended this pacakge to all my families. I recommended this        .
+#     pacakge to all my families.                                              .
+#  4. Yes, even my grandmother like it!                                        .
+#                                                                              .
+#...............................................................................
+```
+
+xxx\_list1(center = T) is not recommended, use xxx\_box(center=T)
+
+## Tips and warnnings:
+
+*Only Mac and windows were tested with this package. *For all functions,
+you can use, for example, xxx\_divider2(’’) in non-interactive mode to
+insert a break line in your text output \*Once text was decorated, it
+would be difficult to restore. It is best to save your text in a
+plain-text file and copy from there, so that you can modify in the
+future.
