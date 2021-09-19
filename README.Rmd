@@ -32,7 +32,7 @@ devtools::install_github("Hzhang-ouce/ARTofR")
 
 1. type your text in any text editor
 2. copy your text
-3. call xxx_box() or xxx_box1() etc
+3. call xxx_box() or xxx_box1() etc in R console
 4. Check the output in console, NO NEED to copy them
 5. paste into your R script
 

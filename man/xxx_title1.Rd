@@ -16,7 +16,8 @@ xxx_title3(mystring = NULL)
 \item{mystring}{the content of your title, must be one line only, not too long}
 }
 \value{
-
+A character string vector returned invisibly,
+but automatically displayed in the console, the output will be saved into clipboard
 }
 \description{
 There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically

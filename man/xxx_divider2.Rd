@@ -13,7 +13,8 @@ xxx_divider1(mystring = NULL)
 \item{mystring}{the content of your break, must be one line only, not too long}
 }
 \value{
-
+A character string vector returned invisibly,
+but automatically displayed in the console, the output will be saved into clipboard
 }
 \description{
 Divider is shorter than title for hierarchy purpose\cr

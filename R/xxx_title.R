@@ -7,7 +7,8 @@
 #' xxx_title3() is the smallest title
 #' @param mystring the content of your title, must be one line only, not too long
 #'
-#' @return
+#' @return A character string vector returned invisibly,
+#' but automatically displayed in the console, the output will be saved into clipboard
 #' @export
 #'
 #' @examples
