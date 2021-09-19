@@ -6,7 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of ARTofR is to …
+ARTofR is to make something like this:
+
+> \#……………………ARTofR line break…………………..
 
 ## Installation
 
