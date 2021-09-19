@@ -39,11 +39,13 @@ xxx_divider2<-function(mystring=NULL){
     mystring<-mystring[1]
     }
   if (nchar(mystring)==0) {
-    bannerCommenter::boxup("",bandChar = '~')
+    comment<-bannerCommenter::boxup("",bandChar = '~')
+    structure(paste0('     ',comment), class = "banner")
+
   }else{
     a<-bannerCommenter::banner(mystring,bandChar = '~',numLines=0,rightSideHashes=3,leftSideHashes=1)
     b<-bannerCommenter::boxup("",leftSideHashes=1,bandChar = '~')
-    comment<-paste0(a,b)
+    comment<-paste0('     ',a,'     ',b)
     structure(comment, class = "banner")
   }
 }
@@ -73,7 +75,7 @@ xxx_divider1<-function(mystring=NULL){
   }
   blanks1 = round(blanks/2)
   blanks2 <- blanks - blanks1
-  left <- paste(c('     ',leftHash, rep(".", blanks1)), collapse = "")
+  left <- paste(c('   ',leftHash, rep(".", blanks1)), collapse = "")
   right <- paste(c(rep(".", blanks2), rightHash), collapse = "")
   mid <- paste(left,  text, right, sep = "", collapse = "")
   structure(mid, class = "banner")

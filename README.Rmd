@@ -45,29 +45,81 @@ Read [instruction_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/in
 
 ### Title
 
+**This will automatically bring you a navigation panel**
+**but xxx_divider will not**
+Check Auto navigation in [instruction_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/instruction_page.pdf) for more information
+
 ```{r, include = T}
   library(ARTofR)
   xxx_title1('ARTofR')
+  
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                                                            ~~
+##                                   ARTOFR                                 ----
+##                                                                            ~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
   xxx_title2('ARTofR')
+  
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                    ARTofR                                ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
   xxx_title3('ARTofR')
+  
+##~~~~~~~~~~~~~~~~
+##  ~ ARTofR  ----
+##~~~~~~~~~~~~~~~~
+
 ```
 
 ### line break
 
-```{r, include = T}
+```{r, include = T,eval=FALSE}
   library(ARTofR)
   xxx_divider1('')
+  
+     #................................................................
+
   xxx_divider1('ARTofR')
-  xxx_divider2('')
+
+     #.............................ARTofR.............................
+
+  xxx_divider2('')     
+     
+     ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
   xxx_divider2('ARTofR')
+     
+     #                            ARTofR                            ~~~
+     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ```
 
 ### Paragraph
 
-```{r, include = T}
+```{r, include = T,eval=FALSE}
 
    xxx_box1('ARTofRARTofRARTofR')
+
+#...............................................................................
+#                                                                              .
+#  ARTofRARTofRARTofR                                                          .
+#                                                                              .
+#...............................................................................
+
+
    xxx_box1('ARTofRARTofRARTofR',center = T)
+   
+#...............................................................................
+#                                                                              .
+#                              ARTofRARTofRARTofR                              .
+#                                                                              .
+#...............................................................................
 
 ```
 
@@ -163,7 +215,7 @@ Yes, even my grandmother like it!
   
 ## Tips and warnnings:
 
-*Only Mac and windows were tested with this package. 
-*For all functions, you can use, for example, xxx_divider2('') in non-interactive mode to insert a break line in your text output
-*Once text was decorated, it would be difficult to restore. It is best to save your text in a plain-text file and copy from there, so that you can modify in the future. 
+* Only Mac and windows were tested with this package. 
+* For all functions, you can use, for example, xxx_divider2('') in non-interactive mode to insert a break line in your text output
+* Once text was decorated, it would be difficult to restore. It is best to save your text in a plain-text file and copy from there, so that you can modify in the future. 
 

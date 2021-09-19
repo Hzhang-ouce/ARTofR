@@ -36,6 +36,11 @@ for more information
 
 ### Title
 
+**This will automatically bring you a navigation panel** **but
+xxx\_divider will not** Check Auto navigation in
+[instruction\_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/instruction_page.pdf)
+for more information
+
 ``` r
   library(ARTofR)
   xxx_title1('ARTofR')
@@ -47,15 +52,32 @@ for more information
 #> ##                                                                            ~~
 #> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                                                            ~~
+##                                   ARTOFR                                 ----
+##                                                                            ~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
   xxx_title2('ARTofR')
 #> 
 #> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #> ##                                    ARTofR                                ----
 #> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                    ARTofR                                ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
   xxx_title3('ARTofR')
 #> ##~~~~~~~~~~~~~~~~
 #> ##  ~ ARTofR  ----
 #> ##~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~
+##  ~ ARTofR  ----
+##~~~~~~~~~~~~~~~~
 ```
 
 ### line break
@@ -63,36 +85,42 @@ for more information
 ``` r
   library(ARTofR)
   xxx_divider1('')
-#>      #................................................................
+  
+     #................................................................
+
   xxx_divider1('ARTofR')
-#>      #.............................ARTofR.............................
-  xxx_divider2('')
-#> 
-#> ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     #.............................ARTofR.............................
+
+  xxx_divider2('')     
+     
+     ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
   xxx_divider2('ARTofR')
-#> 
-#> 
-#> #                            ARTofR                            ~~~
-#> #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     #                            ARTofR                            ~~~
+     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
 ### Paragraph
 
 ``` r
    xxx_box1('ARTofRARTofRARTofR')
-#> 
-#> #...............................................................................
-#> #                                                                              .
-#> #  ARTofRARTofRARTofR                                                          .
-#> #                                                                              .
-#> #...............................................................................
+
+#...............................................................................
+#                                                                              .
+#  ARTofRARTofRARTofR                                                          .
+#                                                                              .
+#...............................................................................
+
+
    xxx_box1('ARTofRARTofRARTofR',center = T)
-#> 
-#> #...............................................................................
-#> #                                                                              .
-#> #                              ARTofRARTofRARTofR                              .
-#> #                                                                              .
-#> #...............................................................................
+   
+#...............................................................................
+#                                                                              .
+#                              ARTofRARTofRARTofR                              .
+#                                                                              .
+#...............................................................................
 ```
 
 **Copy this paragraph:**
@@ -185,9 +213,9 @@ xxx\_list1(center = T) is not recommended, use xxx\_box(center=T)
 
 ## Tips and warnnings:
 
-*Only Mac and windows were tested with this package. *For all functions,
-you can use, for example, xxx\_divider2(’’) in non-interactive mode to
-insert a break line in your text output \*Once text was decorated, it
-would be difficult to restore. It is best to save your text in a
-plain-text file and copy from there, so that you can modify in the
-future.
+-   Only Mac and windows were tested with this package.
+-   For all functions, you can use, for example, xxx\_divider2(’’) in
+    non-interactive mode to insert a break line in your text output
+-   Once text was decorated, it would be difficult to restore. It is
+    best to save your text in a plain-text file and copy from there, so
+    that you can modify in the future.
