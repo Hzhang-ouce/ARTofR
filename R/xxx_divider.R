@@ -75,7 +75,7 @@ xxx_divider1<-function(mystring=NULL){
   }
   blanks1 = round(blanks/2)
   blanks2 <- blanks - blanks1
-  left <- paste(c('   ',leftHash, rep(".", blanks1)), collapse = "")
+  left <- paste(c('     ',leftHash, rep(".", blanks1)), collapse = "")
   right <- paste(c(rep(".", blanks2), rightHash), collapse = "")
   mid <- paste(left,  text, right, sep = "", collapse = "")
   structure(mid, class = "banner")

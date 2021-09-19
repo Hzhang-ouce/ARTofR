@@ -74,6 +74,9 @@ Check it here:
 
 ### line break
 
+You need to turn-off `auto-indent` in `options\code` of R studio, to
+keep the spaces before the line break
+
 ``` r
   library(ARTofR)
   xxx_divider1('')
