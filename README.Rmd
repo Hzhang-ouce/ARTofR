@@ -52,7 +52,7 @@ Read [instruction_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/in
 Check it here: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png)
 
 
-```{r, include = T}
+```{r, include = T,eval=FALSE}
   library(ARTofR)
   xxx_title1('ARTofR')
   
