@@ -43,7 +43,7 @@ devtools::install_github("Hzhang-ouce/ARTofR")
 4. NO NEED to copy again!!!
 5. paste into your R script
 
-For example: ![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot138092.png)
+For example: ![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot138092.png?branch=master)
 
 # All functions:
 
@@ -53,7 +53,7 @@ For example: ![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/maste
 
 **but xxx_divider will not**
 
-Check it here: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png)
+Check it here: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png?branch=master)
 
 
 ```{r, include = T,eval=FALSE}

@@ -36,7 +36,7 @@ devtools::install_github("Hzhang-ouce/ARTofR")
 > 5.  paste into your R script
 
 For example:
-![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot138092.png)
+![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot138092.png?branch=master)
 
 # All functions:
 
@@ -47,7 +47,7 @@ For example:
 **but xxx\_divider will not**
 
 Check it here:
-![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png)
+![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png?branch=master)
 
 ``` r
   library(ARTofR)
