@@ -26,4 +26,6 @@ devtools::install_github("Hzhang-ouce/ARTofR")
 4.  Check the output in console, NO NEED to copy them
 5.  paste into your R script
 
-Read `instruction_page.pdf` for more information
+Read
+[instruction\_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/instruction_page.pdf)
+for more information
