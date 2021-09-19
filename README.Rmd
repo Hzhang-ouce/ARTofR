@@ -184,7 +184,7 @@ Yes, even my grandmother like it!
 **Copy this list:**
 
 ```{r, include = T,eval=FALSE}
-1. I used ARTofR everyday\r\n
+1. I used ARTofR everyday
 2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat.
 3. I recommended this pacakge to all my families. I recommended this pacakge to all my families.
 4. Yes, even my grandmother like it!
