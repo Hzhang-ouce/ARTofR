@@ -168,12 +168,14 @@ families. Yes, even my grandmother like it!
 
 **Copy this list:**
 
-> 1.  I used ARTofR everyday
-> 2.  I used ARTofR everyday and it makes my R script so neat. I used
->     ARTofR everyday and it makes my R script so neat.
-> 3.  I recommended this pacakge to all my families. I recommended this
->     pacakge to all my families.
-> 4.  Yes, even my grandmother like it!
+``` r
+1. I used ARTofR everyday\r\n
+2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR everyday and it makes my R script so neat.
+3. I recommended this pacakge to all my families. I recommended this pacakge to all my families.
+4. Yes, even my grandmother like it!
+```
+
+Then in your R console:
 
 ``` r
   xxx_list()
