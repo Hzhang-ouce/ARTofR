@@ -45,9 +45,12 @@ Read [instruction_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/in
 
 ### Title
 
-**This will automatically bring you a navigation panel**
+**xxx_title() will automatically bring you a navigation panel**
+
 **but xxx_divider will not**
-Check Auto navigation in [instruction_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/instruction_page.pdf) for more information
+
+Check it here: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png)
+
 
 ```{r, include = T}
   library(ARTofR)

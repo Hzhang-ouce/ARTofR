@@ -36,10 +36,12 @@ for more information
 
 ### Title
 
-**This will automatically bring you a navigation panel** **but
-xxx\_divider will not** Check Auto navigation in
-[instruction\_page.pdf](https://github.com/Hzhang-ouce/ARTofR/blob/master/instruction_page.pdf)
-for more information
+**xxx\_title() will automatically bring you a navigation panel**
+
+**but xxx\_divider will not**
+
+Check it here:
+![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png)
 
 ``` r
   library(ARTofR)
