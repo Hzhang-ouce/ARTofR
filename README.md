@@ -213,7 +213,7 @@ Then in your R console:
 
 xxx\_list1(center = T) is not recommended, use xxx\_box(center=T)
 
-## Tips and warnnings:
+## Tips and warnings:
 
 -   Only Mac and windows were tested with this package.
 -   For all functions, you can use, for example, xxx\_divider2(’’) in

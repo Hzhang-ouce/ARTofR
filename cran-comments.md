@@ -10,13 +10,10 @@ There were no ERRORs nor WARNINGs not notes on Travis.
 
 There was 1 WARNINGs on my local machine.
 
-> checking for unstated dependencies in examples ... OK
-   WARNING
-  'qpdf' is needed for checks on size reduction of PDFs
+-- R CMD check results ---- ARTofR 0.2.1 ----
+Duration: 16.4s
 
-0 errors √ | 1 warning x | 0 notes √
-
-This is not relevant to the package, there is no pdf
+0 errors √ | 0 warnings √ | 0 notes √
 
 
 
