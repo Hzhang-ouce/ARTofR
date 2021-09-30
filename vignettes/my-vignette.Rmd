@@ -24,7 +24,7 @@ It is a wrapper of bannerCommenter::banner(), written with thanks to the author,
 
 ## Installation
 
-You can install the released version of ARTofR from [GitHub](https://github.com/) with:
+You can install the developing version of ARTofR from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
