@@ -17,10 +17,12 @@ A character string vector returned invisibly,
 but automatically displayed in the console, the output will be saved into clipboard
 }
 \description{
-Divider is shorter than title for hierarchy purpose\cr
-There are two styles of break, xxx_divider1 and xxx_divider2 \cr
+Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
 }
 \details{
+Divider is shorter than title for hierarchy purpose\cr
+There are two styles of break, xxx_divider1 and xxx_divider2 \cr
+
 call \code{xxx_divider1()} will grab text from clipboard,\cr
 call \code{xxx_divider1('')} will make a line without text, \cr
 call \code{xxx_divider1('mystring')} will make a divider with 'mystring'

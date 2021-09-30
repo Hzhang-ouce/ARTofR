@@ -20,10 +20,13 @@ A character string vector returned invisibly,
 but automatically displayed in the console, the output will be saved into clipboard
 }
 \description{
-There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically
-xxx_title1() is the largest title
-xxx_title2() is the middle size title
-xxx_title3() is the smallest title
+Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+}
+\details{
+There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically.\cr
+xxx_title1() is the largest title.\cr
+xxx_title2() is the middle size title.\cr
+xxx_title3() is the smallest title.\cr
 }
 \section{Functions}{
 \itemize{

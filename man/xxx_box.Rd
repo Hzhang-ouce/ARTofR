@@ -5,9 +5,7 @@
 \alias{xxx_box1}
 \alias{xxx_list}
 \alias{xxx_list1}
-\title{box or list of comments
-xxx_box is for paragraph, xxx_list is for bullet points or numbered list
-xxx_box1 and xxx_list1 imply style 1.}
+\title{Box or list of comments}
 \usage{
 xxx_box(mystring = NULL, center = F)
 
@@ -28,9 +26,11 @@ A character string vector returned invisibly,
 but automatically displayed in the console, the output will be saved into clipboard
 }
 \description{
-box or list of comments
-xxx_box is for paragraph, xxx_list is for bullet points or numbered list
-xxx_box1 and xxx_list1 imply style 1.
+Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+}
+\details{
+xxx_box is for paragraph, xxx_list is for bullet points or numbered list.\cr
+Number 1 in xxx_box1 and xxx_list1 imply style 1.\cr
 }
 \section{Functions}{
 \itemize{

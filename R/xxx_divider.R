@@ -1,5 +1,8 @@
 #' Insert a divider (line break or page break)
 #'
+#' Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+#'
+#'
 #' Divider is shorter than title for hierarchy purpose\cr
 #' There are two styles of break, xxx_divider1 and xxx_divider2 \cr
 #'

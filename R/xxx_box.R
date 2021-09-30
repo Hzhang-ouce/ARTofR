@@ -1,7 +1,10 @@
 
-#' box or list of comments
-#' xxx_box is for paragraph, xxx_list is for bullet points or numbered list
-#' xxx_box1 and xxx_list1 imply style 1.
+#' Box or list of comments
+#'
+#' Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+#'
+#' xxx_box is for paragraph, xxx_list is for bullet points or numbered list.\cr
+#' Number 1 in xxx_box1 and xxx_list1 imply style 1.\cr
 #' @param mystring A string, will be a line of comment. If missing, the function will try to grab texts from your clipboard.
 #' @param center A logical value: Do you want the text strings centred?
 #' (alternative: left justified)

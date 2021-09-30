@@ -1,10 +1,12 @@
 
 #' Insert a title
 #'
-#' There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically
-#' xxx_title1() is the largest title
-#' xxx_title2() is the middle size title
-#' xxx_title3() is the smallest title
+#' Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+#'
+#' There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically.\cr
+#' xxx_title1() is the largest title.\cr
+#' xxx_title2() is the middle size title.\cr
+#' xxx_title3() is the smallest title.\cr
 #' @param mystring the content of your title, must be one line only, not too long
 #'
 #' @return A character string vector returned invisibly,
