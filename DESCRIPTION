@@ -18,3 +18,7 @@ Imports:
     clipr,
     methods,
     stringr
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr

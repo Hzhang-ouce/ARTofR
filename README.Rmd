@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 # Who ever care about the [art of R] scripts?
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.com/Hzhang-ouce/ARTofR.svg?branch=master)](https://travis-ci.com/Hzhang-ouce/ARTofR)
+[![Travis build status](https://travis-ci.com/Hzhang-ouce/ARTofR.svg?branch=master)](https://app.travis-ci.com/github/Hzhang-ouce/ARTofR)
 [![R-CMD-check](https://github.com/Hzhang-ouce/ARTofR/workflows/R-CMD-check/badge.svg)](https://github.com/Hzhang-ouce/ARTofR/actions)
 <!-- badges: end -->
 
