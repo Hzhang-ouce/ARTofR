@@ -1,5 +1,5 @@
 Package: ARTofR
-Title: make pretty comments and headers
+Title: Who ever care about the [art of R] scripts?
 Version: 0.2
 Authors@R: 
     person(given = "Huanyuan",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "hyzhang1996@gmail.com",
            comment = c(ORCID = "0000-0003-4801-8771"))
-Description: What the package does (one paragraph).
+Description: Decorate your comments and keep them neat! pls check https://github.com/Hzhang-ouce/ARTofR for instructions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

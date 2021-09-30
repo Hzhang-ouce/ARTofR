@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ARTofR
+# Who ever care about the \[art of R\] scripts?
 
 <!-- badges: start -->
 
@@ -10,7 +10,7 @@ status](https://travis-ci.com/Hzhang-ouce/ARTofR.svg?branch=master)](https://tra
 [![R-CMD-check](https://github.com/Hzhang-ouce/ARTofR/workflows/R-CMD-check/badge.svg)](https://github.com/Hzhang-ouce/ARTofR/actions)
 <!-- badges: end -->
 
-ARTofR is to make something like this:
+ARTofR is designed to make something like this:
 
 > \#……………………ARTofR line break…………………..
 

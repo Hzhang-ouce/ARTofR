@@ -24,6 +24,7 @@
 #' @param center Alternative spelling of \code{centre}.
 #' @param fold Logical: should the text be folded to ensure lines are not too long?
 #' @param maxChar Ingeter: maximum length allowed in any line if \code{fold} is \code{TRUE}.
+#' @import bannerCommenter
 #'
 #' @return A character string vector returned invisibly,
 #' but automatically displayed in the console
@@ -120,3 +121,8 @@ my_own_banner<-function (x, ..., emph = FALSE, snug = FALSE, upper = emph,
 #   cat(y, sep = "\n")
 #   invisible(x)
 # }
+
+
+.onLoad <- function(libname, pkgname){
+  requireNamespace('bannerCommenter')
+}
