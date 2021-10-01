@@ -2,6 +2,7 @@
 % Please edit documentation in R/my_own_banner.R
 \name{my_own_banner}
 \alias{my_own_banner}
+\alias{fold_it}
 \title{Core functions for comment making}
 \usage{
 my_own_banner(
@@ -20,12 +21,11 @@ my_own_banner(
   fold = FALSE,
   maxChar = 75
 )
+
+fold_it(x, maxChar, exdent = 0)
 }
 \arguments{
-\item{x}{A string, first line of the comment. If
-\code{""}, the zero-length string, only the top lines of the banner are made.
-If missing, in an interactive session the user will be prompted for the input
-strings, one per line, in the console.}
+\item{x}{the string}
 
 \item{...}{Zero or more additional strings as extra lines.  Strings may contain
 newline characters resulting in further line breaks.}
@@ -56,15 +56,24 @@ the bands around the text, apart from the first character of every line.}
 
 \item{fold}{Logical: should the text be folded to ensure lines are not too long?}
 
-\item{maxChar}{Ingeter: maximum length allowed in any line if \code{fold} is \code{TRUE}.}
+\item{maxChar}{same as width in str_wrap}
+
+\item{exdent}{for xxx_list()}
 }
 \value{
 A character string vector returned invisibly,
 but automatically displayed in the console
+
+
 }
 \description{
 This is modified from \code{bannerCommenter::banner()}, the main modification is to extend the comment length (minHashes) to 80
 }
+\section{Functions}{
+\itemize{
+\item \code{fold_it}: sub-function to fold sentence, don't use this in other circumstance
+}}
+
 \examples{
 my_own_banner("This should appear clearly and stand out.",
        "The lines are left justified by default.")

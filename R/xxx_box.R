@@ -44,7 +44,7 @@ xxx_box<-function(mystring=NULL, center=FALSE){
     storage2=''
     storage = mystring
     for (i in 1:length(storage)) {
-      storage2[i]<-stringr::str_wrap(storage[i],width=75)
+      storage2[i]<-fold_it(storage[i],maxChar = 75)
       storage2[i]<-paste0('',storage2[i],'\n')
     }
 
@@ -72,7 +72,7 @@ xxx_box1<-function(mystring=NULL, center=FALSE){
     storage2=''
     storage = mystring
     for (i in 1:length(storage)) {
-      storage2[i]<-stringr::str_wrap(storage[i],width=75)
+      storage2[i]<-fold_it(storage[i],maxChar=75)
       storage2[i]<-paste0('',storage2[i],'\n')
     }
 
@@ -101,10 +101,10 @@ xxx_list<-function(mystring=NULL, center=FALSE){
     storage2=''
     storage = mystring
 
-    storage2<-stringr::str_wrap(storage,indent = 0,width=74,exdent =3)
-    # for (i in 1:length(storage2)) {
-    #   storage2[i]<-paste0(storage2[i],'\n')
-    # }
+   # storage2<-stringr::str_wrap(storage,indent = 0,width=74,exdent =3) has the same effect as below
+     for (i in 1:length(storage)) {
+       storage2[i]<-fold_it(storage[i],maxChar=74,exdent =3)
+     }
 
   }
   storage3<-storage2
@@ -132,10 +132,11 @@ xxx_list1<-function(mystring=NULL, center=FALSE){
     storage2=''
     storage = mystring
 
-    storage2<-stringr::str_wrap(storage,indent = 0,width=74,exdent =3)
-    # for (i in 1:length(storage2)) {
-    #   storage2[i]<-paste0(storage2[i],'\n')
-    # }
+   # storage2<-stringr::str_wrap(storage,indent = 0,width=74,exdent =3) has the same effect as below
+
+     for (i in 1:length(storage)) {
+       storage2[i]<-fold_it(storage[i],maxChar=74,exdent =3)
+     }
 
   }
   storage3<-storage2
@@ -158,4 +159,16 @@ xxx_list1<-function(mystring=NULL, center=FALSE){
 #                                                                              .
 #...............................................................................
 
+
+
+#...............................................................................
+#                                                                              .
+#  1. I used ARTofR everyday                                                   .
+#  2. I used ARTofR everyday and it makes my R script so neat. I used ARTofR   .
+#     everyday and it makes my R script so neat.                               .
+#  3. I recommended this pacakge to all my families. I recommended this        .
+#     pacakge to all my families.                                              .
+#  4. Yes, even my grandmother like it!                                        .
+#                                                                              .
+#...............................................................................
 

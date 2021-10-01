@@ -16,8 +16,7 @@ RoxygenNote: 7.1.2
 Imports: 
     bannerCommenter,
     clipr,
-    methods,
-    stringr
+    methods
 Suggests: 
     rmarkdown,
     knitr

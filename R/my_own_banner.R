@@ -114,6 +114,37 @@ my_own_banner<-function (x, ..., emph = FALSE, snug = FALSE, upper = emph,
 }
 
 
+#' @describeIn my_own_banner sub-function to fold sentence, don't use this in other circumstance
+#' @param x the string
+#' @param maxChar same as width in str_wrap
+#' @param exdent for xxx_list()
+#'
+#' @return
+
+
+fold_it<-function(x,maxChar,exdent = 0){
+    text <- gsub("\n", " ", paste(as.character(unlist(list(x))), collapse = " "))
+    if (nchar(text) > maxChar) {
+      txt <- character()
+      repeat {
+        if (nchar(text) <= maxChar)
+          break
+        pos <- gregexpr(" ", text)[[1]]
+        if (any(pos < 0) || !any(pos <= maxChar))
+          break
+        pos <- max(pos[pos <= maxChar])
+        txt <- c(txt, substring(text, 0, pos))
+        text <- substring(text, pos + 1, nchar(text))
+      }
+      exdent_blank=paste0(rep(" ",exdent),collapse = '')
+      extend_part=paste0("\n",exdent_blank,collapse = '')
+      text <- paste(sub("^ +", "", sub(" +$", "", c(txt,
+        text))), collapse = extend_part )
+    }
+    return(text)
+    }
+
+
 # print.banner2 <- function(x, ...) {
 #   y <- unlist(strsplit(x, "\n"))
 #   #copy_to_clipboard(y, sep = "\n")
