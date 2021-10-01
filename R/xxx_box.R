@@ -18,18 +18,19 @@
 #' # COMMON WORKFLOW OF THIS PACKAGE
 #' # 1. type your text in any text editor
 #' # 2. copy your text
-#' # 3. call xxx_box() or xxx_box1() etc
-#' # 4. Check the output in console, NO NEED to copy them
-#' # 4. paste into your R script
+#' # 3. call xxx_box() etc without arguments to grab text from clipboard
+#' # 4. decorated text will be displayed and sent to clipboard, NO NEED to copy them
+#' # 5. paste into your R script
 #' #
 #' #
 #' #...............................................
-#' #' # COMMON USAGE
-#' #xxx_box1()
-#' #xxx_box1(center = T)
-#' #xxx_box1('test sentence',center = T)
+#' # # OTHER USAGE
+#'
+#' xxx_box('test sentence, test sentence, test sentence, test sentence',center = FALSE )
+#' xxx_box1('test sentence, test sentence, test sentence, test sentence',center = FALSE )
+#' xxx_box1('test sentence, test sentence, test sentence, test sentence',center = TRUE )
 
-xxx_box<-function(mystring=NULL, center=F){
+xxx_box<-function(mystring=NULL, center=FALSE){
   if (is.null(mystring)) {
     mystring<-clipr::read_clip(allow_non_interactive = TRUE)
 
@@ -58,7 +59,7 @@ xxx_box<-function(mystring=NULL, center=F){
 #' @describeIn xxx_box Same as xxx_box but add border
 #'
 #' @export
-xxx_box1<-function(mystring=NULL, center=F){
+xxx_box1<-function(mystring=NULL, center=FALSE){
   if (is.null(mystring)) {
     mystring<-clipr::read_clip(allow_non_interactive = TRUE)
   }
@@ -87,7 +88,7 @@ xxx_box1<-function(mystring=NULL, center=F){
 #' @describeIn xxx_box Same as xxx_box but looks better for bullet points list or numbered list
 #'
 #' @export
-xxx_list<-function(mystring=NULL, center=F){
+xxx_list<-function(mystring=NULL, center=FALSE){
   if (is.null(mystring)) {
     mystring<-clipr::read_clip(allow_non_interactive = TRUE)
 
@@ -118,7 +119,7 @@ xxx_list<-function(mystring=NULL, center=F){
 #' @describeIn xxx_box Same as xxx_list but add border
 #'
 #' @export
-xxx_list1<-function(mystring=NULL, center=F){
+xxx_list1<-function(mystring=NULL, center=FALSE){
   if (is.null(mystring)) {
     mystring<-clipr::read_clip(allow_non_interactive = TRUE)
 

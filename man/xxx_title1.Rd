@@ -24,6 +24,7 @@ Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instruc
 }
 \details{
 There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically.\cr
+Please note that a super long title string will result in an error\cr
 xxx_title1() is the largest title.\cr
 xxx_title2() is the middle size title.\cr
 xxx_title3() is the smallest title.\cr
@@ -36,16 +37,19 @@ xxx_title3() is the smallest title.\cr
 }}
 
 \examples{
-#' # COMMON WORKFLOW OF THIS PACKAGE
+# COMMON WORKFLOW OF THIS PACKAGE
 # 1. type your text in any text editor
 # 2. copy your text
-# 3. call xxx_box() or xxx_box1() etc
-# 4. Check the output in console, NO NEED to copy them
-# 4. paste into your R script
-
+# 3. call xxx_box() etc without arguments to grab text from clipboard
+# 4. decorated text will be displayed and sent to clipboard, NO NEED to copy them
+# 5. paste into your R script
+#
+#
 #...............................................
-#' # COMMON USAGE
-#  xxx_title1()
-#  xxx_title1('XXXXX')
-# pls note that a long title string will make output ugly
+# # OTHER USAGE
+
+xxx_title1('my title')
+xxx_title2('my title')
+xxx_title3('my title')
+
 }

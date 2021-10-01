@@ -7,13 +7,13 @@
 \alias{xxx_list1}
 \title{Box or list of comments}
 \usage{
-xxx_box(mystring = NULL, center = F)
+xxx_box(mystring = NULL, center = FALSE)
 
-xxx_box1(mystring = NULL, center = F)
+xxx_box1(mystring = NULL, center = FALSE)
 
-xxx_list(mystring = NULL, center = F)
+xxx_list(mystring = NULL, center = FALSE)
 
-xxx_list1(mystring = NULL, center = F)
+xxx_list1(mystring = NULL, center = FALSE)
 }
 \arguments{
 \item{mystring}{A string, will be a line of comment. If missing, the function will try to grab texts from your clipboard.}
@@ -45,14 +45,15 @@ Number 1 in xxx_box1 and xxx_list1 imply style 1.\cr
 # COMMON WORKFLOW OF THIS PACKAGE
 # 1. type your text in any text editor
 # 2. copy your text
-# 3. call xxx_box() or xxx_box1() etc
-# 4. Check the output in console, NO NEED to copy them
-# 4. paste into your R script
+# 3. call xxx_box() etc without arguments to grab text from clipboard
+# 4. decorated text will be displayed and sent to clipboard, NO NEED to copy them
+# 5. paste into your R script
 #
 #
 #...............................................
-#' # COMMON USAGE
-#xxx_box1()
-#xxx_box1(center = T)
-#xxx_box1('test sentence',center = T)
+# # OTHER USAGE
+
+xxx_box('test sentence, test sentence, test sentence, test sentence',center = FALSE )
+xxx_box1('test sentence, test sentence, test sentence, test sentence',center = FALSE )
+xxx_box1('test sentence, test sentence, test sentence, test sentence',center = TRUE )
 }
