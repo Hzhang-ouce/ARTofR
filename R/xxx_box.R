@@ -42,8 +42,8 @@ xxx_box<-function(mystring=NULL, center=FALSE){
     storage2<-strwrap(storage,width=75)
   }else{
     storage2=''
-    storage = mystring
-    for (i in 1:length(storage)) {
+   storage = mystring[mystring != ""] #remove enpty row
+   for (i in 1:length(storage)) {
       storage2[i]<-fold_it(storage[i],maxChar = 75)
       storage2[i]<-paste0('',storage2[i],'\n')
     }
@@ -70,7 +70,7 @@ xxx_box1<-function(mystring=NULL, center=FALSE){
     storage2<-strwrap(storage,width=75)
   }else{
     storage2=''
-    storage = mystring
+    storage = mystring[mystring != ""] #remove enpty row
     for (i in 1:length(storage)) {
       storage2[i]<-fold_it(storage[i],maxChar=75)
       storage2[i]<-paste0('',storage2[i],'\n')

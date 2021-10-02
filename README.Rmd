@@ -34,26 +34,46 @@ You can install the released version of ARTofR from [GitHub](https://github.com/
 # install.packages("devtools")
 devtools::install_github("Hzhang-ouce/ARTofR")
 ```
-## COMMON WORKFLOW OF THIS PACKAGE
+## Usage 1 - copy and paste
 
 >
 1. type your text in any text editor
 2. copy your text
-3. call xxx_box() or xxx_box1() etc in R console
+3. call xxx_box() or xxx_box1() etc without arguments in R console
 4. NO NEED to copy again!!!
 5. paste into your R script
 
 For example: ![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot138092.png?branch=master)
 
-# All functions:
+## Usage 2 - hand-typing
 
-### Title
+```{r, include = T,eval=FALSE}
+xxx_title2('your title')
+
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                  your title                              ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+xxx_box1('your comments)
+
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                  your title                              ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+```
+
+
+### xxx_title
 
 **xxx_title() will automatically bring you a navigation panel**
 
 **but xxx_divider will not**
 
-Check it here: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png?branch=master)
+For example: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png?branch=master)
 
 
 ```{r, include = T,eval=FALSE}
@@ -84,7 +104,7 @@ Check it here: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/mast
 
 ```
 
-### line break
+### xxx_divider
 
 You need to turn-off `auto-indent` in `options\code` of R studio, to keep the spaces before the line break
 
