@@ -68,7 +68,7 @@ xxx_box1('your comments')
 ```
 
 
-### xxx_title
+## xxx_title
 
 **xxx_title() will automatically bring you a navigation panel**
 
@@ -105,7 +105,7 @@ For example: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master
 
 ```
 
-### xxx_divider
+## xxx_divider
 
 You need to turn-off `auto-indent` in `options\code` of R studio, to keep the spaces before the line break
 
@@ -130,28 +130,8 @@ You need to turn-off `auto-indent` in `options\code` of R studio, to keep the sp
 
 ```
 
-### Paragraph
+## xxx_box
 
-```{r, include = T,eval=FALSE}
-
-   xxx_box1('ARTofRARTofRARTofR')
-
-#...............................................................................
-#                                                                              .
-#  ARTofRARTofRARTofR                                                          .
-#                                                                              .
-#...............................................................................
-
-
-   xxx_box1('ARTofRARTofRARTofR',center = T)
-   
-#...............................................................................
-#                                                                              .
-#                              ARTofRARTofRARTofR                              .
-#                                                                              .
-#...............................................................................
-
-```
 
 **Copy this paragraph:**
 
@@ -208,7 +188,7 @@ Yes, even my grandmother like it!
 
 ```
 
-### List
+## xxx_list
 
 **Copy this list:**
 

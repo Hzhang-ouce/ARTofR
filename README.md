@@ -59,7 +59,7 @@ xxx_box1('your comments')
 #...............................................................................
 ```
 
-### xxx\_title
+## xxx\_title
 
 **xxx\_title() will automatically bring you a navigation panel**
 
@@ -95,7 +95,7 @@ For example:
 ##~~~~~~~~~~~~~~~~
 ```
 
-### xxx\_divider
+## xxx\_divider
 
 You need to turn-off `auto-indent` in `options\code` of R studio, to
 keep the spaces before the line break
@@ -120,26 +120,7 @@ keep the spaces before the line break
      #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
-### Paragraph
-
-``` r
-   xxx_box1('ARTofRARTofRARTofR')
-
-#...............................................................................
-#                                                                              .
-#  ARTofRARTofRARTofR                                                          .
-#                                                                              .
-#...............................................................................
-
-
-   xxx_box1('ARTofRARTofRARTofR',center = T)
-   
-#...............................................................................
-#                                                                              .
-#                              ARTofRARTofRARTofR                              .
-#                                                                              .
-#...............................................................................
-```
+## xxx\_box
 
 **Copy this paragraph:**
 
@@ -193,7 +174,7 @@ Yes, even my grandmother like it!
 #...............................................................................
 ```
 
-### List
+## xxx\_list
 
 **Copy this list:**
 
