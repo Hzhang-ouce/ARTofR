@@ -68,7 +68,7 @@ xxx_box1('your comments')
 ```
 
 
-## xxx_title
+## FUNCTION1: xxx_title
 
 **xxx_title() will automatically bring you a navigation panel**
 
@@ -105,7 +105,7 @@ For example: ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master
 
 ```
 
-## xxx_divider
+## FUNCTION2: xxx_divider
 
 You need to turn-off `auto-indent` in `options\code` of R studio, to keep the spaces before the line break
 
@@ -130,7 +130,7 @@ You need to turn-off `auto-indent` in `options\code` of R studio, to keep the sp
 
 ```
 
-## xxx_box
+## FUNCTION3: xxx_box
 
 
 **Copy this paragraph:**
@@ -188,7 +188,7 @@ Yes, even my grandmother like it!
 
 ```
 
-## xxx_list
+## FUNCTION4: xxx_list
 
 **Copy this list:**
 
