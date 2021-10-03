@@ -15,3 +15,4 @@
 
 * Better instruction!
 * Now xxx_box will try to eliminate empty row, keep only one space between paragraph
+* Correct xxx_divider that produces lines with different length
