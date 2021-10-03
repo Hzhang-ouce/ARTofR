@@ -20,7 +20,7 @@ A character string vector returned invisibly,
 but automatically displayed in the console, the output will be saved into clipboard
 }
 \description{
-Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+For user guide, please refer to \url{https://github.com/Hzhang-ouce/ARTofR}\cr
 }
 \details{
 There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically.\cr

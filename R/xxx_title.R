@@ -1,7 +1,7 @@
 
 #' Insert a title
 #'
-#' Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+#' For user guide, please refer to <https://github.com/Hzhang-ouce/ARTofR>\cr
 #'
 #' There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically.\cr
 #' Please note that a super long title string will result in an error\cr

@@ -1,6 +1,6 @@
 #' Insert a divider (line break or page break)
 #'
-#' Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+#' For user guide, please refer to <https://github.com/Hzhang-ouce/ARTofR>\cr
 #'
 #'
 #' Divider is shorter than title for hierarchy purpose, title will be come a section (for folding) in Rstudio, but divider will not\cr
@@ -32,26 +32,6 @@
 #' xxx_divider1('')
 #' xxx_divider2('mystring')
 #' xxx_divider2('')
-xxx_divider2<-function(mystring=NULL){
-  if (is.null(mystring)) {
-    mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
-    mystring<-mystring[1]
-    }
-  if (nchar(mystring)==0) {
-    comment<-bannerCommenter::boxup("",bandChar = '~')
-    structure(paste0('     ',comment), class = "banner")
-
-  }else{
-    a<-bannerCommenter::banner(mystring,bandChar = '~',numLines=0,rightSideHashes=3,leftSideHashes=1)
-    b<-bannerCommenter::boxup("",leftSideHashes=1,bandChar = '~')
-    comment<-paste0('     ',a,'     ',b)
-    structure(comment, class = "banner")
-  }
-}
-
-#' @describeIn xxx_divider2 Same as xxx_divider2 but different style
-#'
-#' @export
 xxx_divider1<-function(mystring=NULL){
   if (is.null(mystring)) {
     mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
@@ -81,8 +61,31 @@ xxx_divider1<-function(mystring=NULL){
   #print.banner2(mid)
 }
 
-#................................................................
+#' @describeIn xxx_divider1 Same as xxx_divider1 but different style
+#'
+#' @export
+xxx_divider2<-function(mystring=NULL){
+  if (is.null(mystring)) {
+    mystring<-clipr::read_clip(allow_non_interactive = Sys.getenv("CLIPR_ALLOW", interactive()))
+    mystring<-mystring[1]
+    }
+  if (nchar(mystring)==0) {
+    comment<-my_own_banner("",leftSideHashes=1,bandChar = '~',minHashes=65)
+    structure(paste0('     ',comment), class = "banner")
+
+  }else{
+    a<-my_own_banner(mystring,bandChar = '~',numLines=0,rightSideHashes=3,leftSideHashes=1,minHashes=65)
+    b<-my_own_banner("",leftSideHashes=1,bandChar = '~',minHashes=65)
+    comment<-paste0('     ',a,'     ',b)
+    structure(comment, class = "banner")
+  }
+}
+
+
+
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 

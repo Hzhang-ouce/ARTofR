@@ -19,7 +19,13 @@ author, Bill Venables
 
 ## Installation
 
-You can install the released version of ARTofR from
+Install from CRAN:
+
+``` r
+install.packages("ARTofR")
+```
+
+OR you can install the beta version of ARTofR from
 [GitHub](https://github.com/) with:
 
 ``` r

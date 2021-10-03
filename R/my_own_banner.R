@@ -29,7 +29,7 @@
 #' @return A character string vector returned invisibly,
 #' but automatically displayed in the console
 #' @export
-#'
+#' @keywords internal
 #' @examples
 #' my_own_banner("This should appear clearly and stand out.",
 #'        "The lines are left justified by default.")
@@ -118,7 +118,7 @@ my_own_banner<-function (x, ..., emph = FALSE, snug = FALSE, upper = emph,
 #' @param x the string
 #' @param maxChar same as width in str_wrap
 #' @param exdent for xxx_list()
-#'
+#' @keywords internal
 #' @return
 
 

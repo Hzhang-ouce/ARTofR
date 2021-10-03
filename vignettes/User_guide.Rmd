@@ -2,7 +2,7 @@
 title: "Who ever care about the (art of R) scripts?"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{my-vignette}
+  %\VignetteIndexEntry{User_guide}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -24,13 +24,20 @@ It is a wrapper of bannerCommenter::banner(), written with thanks to the author,
 
 ## Installation
 
-You can install the developing version of ARTofR from [GitHub](https://github.com/) with:
+Install from CRAN:
+
+``` r
+install.packages('ARTofR')
+```
+
+Install the developing version of ARTofR:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("Hzhang-ouce/ARTofR")
 ```
-## Please go to the github page for latest instruction:
 
-[Hzhang-ouce-ARTofR](https://github.com/Hzhang-ouce/ARTofR)
+## User guide:
+
+**User guide at** [Hzhang-ouce-ARTofR](https://github.com/Hzhang-ouce/ARTofR)
 

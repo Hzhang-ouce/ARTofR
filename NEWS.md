@@ -10,3 +10,8 @@
 * Hzhang 01/10/2021 
 * Remove dependency of stringr pacakge by writing a simple fold_it function in the package.
 * First submission to CRAN.
+
+# ARTofR 0.2.3
+
+* Better instruction!
+* Now xxx_box will try to eliminate empty row, keep only one space between paragraph

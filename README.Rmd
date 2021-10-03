@@ -28,9 +28,16 @@ It is a wrapper of bannerCommenter::banner(), written with thanks to the author,
 
 ## Installation
 
-You can install the released version of ARTofR from [GitHub](https://github.com/) with:
+Install from CRAN:
 
-``` r
+```r
+install.packages("ARTofR")
+
+```
+
+OR you can install the beta version of ARTofR from [GitHub](https://github.com/) with:
+
+```r
 # install.packages("devtools")
 devtools::install_github("Hzhang-ouce/ARTofR")
 ```

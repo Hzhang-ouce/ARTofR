@@ -82,3 +82,4 @@ my_own_banner("This should appear clearly and stand out.",
 ##This is NOT recommended!!!
 ##pls use bannerCommenter::banner()
 }
+\keyword{internal}

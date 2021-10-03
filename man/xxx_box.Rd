@@ -5,7 +5,7 @@
 \alias{xxx_box1}
 \alias{xxx_list}
 \alias{xxx_list1}
-\title{Box or list of comments}
+\title{Convert sentences into a box of comments}
 \usage{
 xxx_box(mystring = NULL, center = FALSE)
 
@@ -26,7 +26,7 @@ A character string vector returned invisibly,
 but automatically displayed in the console, the output will be saved into clipboard
 }
 \description{
-Please refer to the github page <github.com/Hzhang-ouce/ARTofR> for more instructions.\cr
+For user guide, please refer to \url{https://github.com/Hzhang-ouce/ARTofR}\cr
 }
 \details{
 xxx_box is for paragraph, xxx_list is for bullet points or numbered list.\cr
