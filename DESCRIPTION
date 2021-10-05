@@ -14,10 +14,10 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
-    bannerCommenter,
-    clipr,
-    methods
+    bannerCommenter (>= 1.0.0),
+    clipr  (>= 0.4.0)
 Suggests: 
     rmarkdown,
     knitr
 VignetteBuilder: knitr
+Date: 2021-10-03 23:20:01 UTC

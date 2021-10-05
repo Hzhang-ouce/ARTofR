@@ -7,7 +7,10 @@
 
 ## Updates
 * This small update is to improve user instructions.
-* Also fix a small bug in xxx_divider()
+* Also fix a small bug in xxx_divider() which cause wrong alignment
+* Solve the "NOTE" on CRAN check
+
+#......................Previous submission.......................
 
 # Hzhang 01/10/2021, V0.2.2
 
