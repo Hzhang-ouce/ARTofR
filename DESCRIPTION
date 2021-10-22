@@ -1,6 +1,6 @@
 Package: ARTofR
 Title: Who Ever Care About the [Art of R] Scripts?
-Version: 0.2.3
+Version: 0.3.3
 Authors@R: 
     person(given = "Huanyuan",
            family = "Zhang",

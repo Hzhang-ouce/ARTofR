@@ -16,3 +16,9 @@
 * Better instruction!
 * Now xxx_box will try to eliminate empty row, keep only one space between paragraph
 * Correct xxx_divider that produces lines with different length
+
+
+# ARTofR 0.3.3
+
+* fix the title2 and title 1 centre problem, now they are perfectly centered
+* add xxx_title0 new style
