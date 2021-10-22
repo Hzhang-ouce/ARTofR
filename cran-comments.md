@@ -1,3 +1,14 @@
+# Hzhang 22/10/2021, V0.3.3
+
+## Test environments
+* local check() - all passed
+* travis-ci - all passed 
+
+## Updates
+* fix the title2 and title 1 centre problem, now they are perfectly centered
+* add xxx_title0 new style
+
+#......................Previous submission.......................
 # Hzhang 03/10/2021, V0.2.3
 
 ## Test environments
@@ -9,8 +20,6 @@
 * This small update is to improve user instructions.
 * Also fix a small bug in xxx_divider() which cause wrong alignment
 * Solve the "NOTE" on CRAN check
-
-#......................Previous submission.......................
 
 # Hzhang 01/10/2021, V0.2.2
 
