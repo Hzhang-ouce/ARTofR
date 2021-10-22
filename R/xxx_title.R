@@ -5,9 +5,10 @@
 #'
 #' There are three levels of titles, inserting a title with xxx_title() will also add a section in Rstudio automatically.\cr
 #' Please note that a super long title string will result in an error\cr
-#' xxx_title1() is the largest title.\cr
-#' xxx_title2() is the middle size title.\cr
-#' xxx_title3() is the smallest title.\cr
+#' xxx_title0() was designed as the main title of the whole script\cr
+#' xxx_title1() is the largest header\cr
+#' xxx_title2() is the middle size header\cr
+#' xxx_title3() is the smallest header\cr
 #'
 #' @param mystring the content of your title, must be one line only, not too long
 #'
