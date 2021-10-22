@@ -12,7 +12,9 @@ status](https://travis-ci.com/Hzhang-ouce/ARTofR.svg?branch=master)](https://app
 
 ARTofR is designed to make something like this:
 
-> \#……………………ARTofR line break…………………..
+``` r
+#........................ARTofR line break.......................
+```
 
 It is a wrapper of bannerCommenter::banner(), written with thanks to the
 author, Bill Venables
@@ -242,3 +244,9 @@ These set of functions, being a wrapper of banner, was designed to
     last texts in clipboard will be grabbed into the function)
 4.  It was called xxx so that it can be distinguished from any other R
     packages.
+
+## Other packages
+
+Here are some other pacakages I found useful for R codes formatting:
+
+`strcode` `styler` `bannercommenter`
