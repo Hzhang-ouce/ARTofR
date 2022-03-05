@@ -1,5 +1,5 @@
 Package: ARTofR
-Title: To insert title, divider, and block of comments
+Title: To Insert Title, Divider, and Block of Comments
 Version: 0.4.1
 Authors@R: 
     person(given = "Huanyuan",
@@ -16,11 +16,11 @@ RoxygenNote: 7.1.2
 Imports: 
     bannerCommenter (>= 1.0.0),
     clipr (>= 0.4.0),
-    miniUI,
     rstudioapi,
     shiny
 Suggests: 
     rmarkdown,
+    miniUI,
     knitr
 VignetteBuilder: knitr
 Date: 2022-03-05 23:20:01 UTC
