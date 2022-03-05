@@ -22,3 +22,7 @@
 
 * fix the title2 and title 1 centre problem, now they are perfectly centered
 * add xxx_title0 new style
+
+# ARTofR 0.4.1
+
+* Add user interface, to easily apply functions

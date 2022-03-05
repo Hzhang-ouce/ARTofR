@@ -15,7 +15,10 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     bannerCommenter (>= 1.0.0),
-    clipr  (>= 0.4.0)
+    clipr (>= 0.4.0),
+    miniUI,
+    rstudioapi,
+    shiny
 Suggests: 
     rmarkdown,
     knitr

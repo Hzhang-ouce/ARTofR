@@ -1,0 +1,5 @@
+Name: ARTofR user interface
+Description: help to trigger ARTofR functions
+Binding: ARTofR_user_interface
+Interactive: true
+

@@ -40,10 +40,11 @@ xxx_title1<-function(mystring=NULL){
   my_out_string<-my_own_banner(mystring, numLines = 2,upper=T, bandChar='~')
   my_out_string<-my_out_string[-3]
   my_out_string<-my_out_string[-7]
+  my_out_string[4]<-gsub(" (?= )", '-', my_out_string[4],perl = TRUE)
   my_out_string[4]<-gsub('.{5}$', '----\n', my_out_string[4])
   my_out_string[3]<-gsub('.{3}$', '--\n', my_out_string[3])
   my_out_string[5]<-gsub('.{3}$', '--\n', my_out_string[5])
-  my_out_string[4]<-gsub(' ', '.', my_out_string[4])
+
   structure(my_out_string, class = "banner")
   #print.banner(my_out_string)
 }
