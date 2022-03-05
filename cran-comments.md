@@ -1,3 +1,16 @@
+# Hzhang 22/10/2021, V0.4.1
+
+## Test environments
+* local check() - all passed
+* check_rhub() and check_win_devel() - passed with minor notes, already fixed
+
+## Updates
+* Put a user interface as Rstudio addins
+* The addins basically help to composite commands and send ARTofR commands to console 
+
+
+#......................Previous submission.......................
+
 # Hzhang 22/10/2021, V0.3.3
 
 ## Test environments
@@ -8,7 +21,6 @@
 * fix the title2 and title 1 centre problem, now they are perfectly centered
 * add xxx_title0 new style
 
-#......................Previous submission.......................
 # Hzhang 03/10/2021, V0.2.3
 
 ## Test environments
