@@ -23,13 +23,13 @@ ARTofR_user_interface <- function() {
 
     observe({
       if (input$clipboard) {
-        rstudioapi::callFun("sendToConsole",paste0('xxx_',input$STYLE,'()'))
+        rstudioapi::callFun("sendToConsole",paste0('ARTofR::xxx_',input$STYLE,'()'))
         stopApp()
       }
     })
     observe({
       if (input$WORDS) {
-        rstudioapi::callFun("sendToConsole",paste0('xxx_',input$STYLE,'(\"',input$userinput,'\")'))
+        rstudioapi::callFun("sendToConsole",paste0('ARTofR::xxx_',input$STYLE,'(\"',input$userinput,'\")'))
         stopApp()
       }
     })

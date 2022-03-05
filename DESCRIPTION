@@ -1,6 +1,6 @@
 Package: ARTofR
-Title: Who Ever Care About the [Art of R] Scripts?
-Version: 0.3.3
+Title: To insert title, divider, and block of comments
+Version: 0.4.1
 Authors@R: 
     person(given = "Huanyuan",
            family = "Zhang",
@@ -23,4 +23,4 @@ Suggests:
     rmarkdown,
     knitr
 VignetteBuilder: knitr
-Date: 2021-10-03 23:20:01 UTC
+Date: 2022-03-05 23:20:01 UTC
