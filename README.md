@@ -10,14 +10,27 @@ status](https://travis-ci.com/Hzhang-ouce/ARTofR.svg?branch=master)](https://app
 [![R-CMD-check](https://github.com/Hzhang-ouce/ARTofR/workflows/R-CMD-check/badge.svg)](https://github.com/Hzhang-ouce/ARTofR/actions)
 <!-- badges: end -->
 
-ARTofR is designed to make something like this:
+ARTofR is designed to insert titles, divider and block of comments, for
+example:
+
+`xxx_divider1('just a example')` will give you
 
 ``` r
-#........................ARTofR line break.......................
+ #.........................just a example.........................
+
 ```
 
-It is a wrapper of bannerCommenter::banner(), written with thanks to the
-author, Bill Venables
+`xxx_title2('another example')` will give you
+
+``` r
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                              another example                             ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+```
+
+ARTofR is a wrapper of bannerCommenter::banner(), written with thanks to
+the author, Bill Venables
 
 ## Installation
 
@@ -27,19 +40,22 @@ Install from CRAN:
 install.packages("ARTofR")
 ```
 
-OR you can install the beta version of ARTofR from
-[GitHub](https://github.com/) with:
+# User guide with Rstudio Addins
 
-``` r
-# install.packages("devtools")
-devtools::install_github("Hzhang-ouce/ARTofR")
-```
+> 1.  Click `Addins` in your Rstudio top ribbon
+> 2.  Choose `ARTofR user interface`
+> 3.  Follow instruction in the app
+
+![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/WeChatImage_20220306175401.png?branch=master)
+![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot2022-03-06175714.png?branch=master)
+
+# User guide for any R users
 
 ## Usage 1 - copy and paste
 
 > 1.  type your text in any text editor
 > 2.  copy your text
-> 3.  call xxx\_box() or xxx\_box1() etc without arguments in R console
+> 3.  call xxx_box() or xxx_box1() etc without arguments in R console
 > 4.  NO NEED to copy again!!!
 > 5.  paste into your R script
 
@@ -67,11 +83,13 @@ xxx_box1('your comments')
 #...............................................................................
 ```
 
-## FUNCTION1: xxx\_title
+# Functions and styles
 
-**xxx\_title() will automatically bring you a navigation panel**
+## FUNCTION1: xxx_title
 
-**but xxx\_divider will not**
+**xxx_title() will automatically bring you a navigation panel**
+
+**but xxx_divider will not**
 
 For example:
 ![this](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot13809.png?branch=master)
@@ -109,7 +127,7 @@ For example:
 ##~~~~~~~~~~~~~~~~
 ```
 
-## FUNCTION2: xxx\_divider
+## FUNCTION2: xxx_divider
 
 You need to turn-off `auto-indent` in `options\code` of R studio, to
 keep the spaces before the line break
@@ -134,7 +152,7 @@ keep the spaces before the line break
      #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
-## FUNCTION3: xxx\_box
+## FUNCTION3: xxx_box
 
 **Copy this paragraph:**
 
@@ -188,7 +206,7 @@ Yes, even my grandmother like it!
 #...............................................................................
 ```
 
-## FUNCTION4: xxx\_list
+## FUNCTION4: xxx_list
 
 **Copy this list:**
 
@@ -225,13 +243,13 @@ Then in your R console:
 #...............................................................................
 ```
 
-xxx\_list1(center = T) is not recommended, use xxx\_box(center=T)
+xxx_list1(center = T) is not recommended, use xxx_box(center=T)
 
 ## Tips and warnings:
 
 -   Only Mac and windows were tested with this package.
--   For all functions, you can use, for example, xxx\_divider2(’’) in
-    non-interactive mode to insert a break line in your text output
+-   xxx_divider2(’‘) and xxx_divider1(’’) will insert a break line in
+    your text output
 -   Once text was decorated, it would be difficult to restore. It is
     best to save your text in a plain-text file and copy from there, so
     that you can modify in the future.
@@ -246,8 +264,8 @@ These set of functions, being a wrapper of banner, was designed to
 
 1.  Achieve a balance between simplicity and complexity
 2.  Make use of Rstudio section tag and build a hierarchy
-3.  From clipboard to clipboard (e.g. call xxx\_box() with no input,
-    last texts in clipboard will be grabbed into the function)
+3.  From clipboard to clipboard (e.g. call xxx_box() with no input, last
+    texts in clipboard will be grabbed into the function)
 4.  It was called xxx so that it can be distinguished from any other R
     packages.
 
