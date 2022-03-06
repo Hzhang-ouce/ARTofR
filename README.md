@@ -46,8 +46,8 @@ install.packages("ARTofR")
 > 2.  Choose `ARTofR user interface`
 > 3.  Follow instruction in the app
 
-![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/WeChatImage_20220306175401.png?branch=master)
-![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot2022-03-06175714.png?branch=master)
+![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/WeChatImage_20220306175401.png)
+![image](https://raw.githubusercontent.com/Hzhang-ouce/ARTofR/master/Screenshot2022-03-06175714.png)
 
 # User guide for any R users
 
