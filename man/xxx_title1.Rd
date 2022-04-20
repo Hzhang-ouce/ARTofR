@@ -44,15 +44,14 @@ xxx_title3() is the smallest header\cr
 
 \examples{
 # COMMON WORKFLOW OF THIS PACKAGE
-# 1. type your text in any text editor
-# 2. copy your text
-# 3. call xxx_box() etc without arguments to grab text from clipboard
+#
+# 1. To insert titles with your own text
+# 2. copy the text you want from anywhere
+# 3. call xxx_title2() etc without arguments to grab text from clipboard
 # 4. decorated text will be displayed and sent to clipboard, NO NEED to copy them
-# 5. paste into your R script
-#
-#
+# 5. paste it into your R script
 #...............................................
-# # OTHER USAGE
+# # SPECIFIC USAGE EXAMPLE:
 
 xxx_title0('my title')
 xxx_title1('my title')

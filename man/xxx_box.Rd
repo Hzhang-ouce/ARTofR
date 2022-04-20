@@ -43,15 +43,14 @@ Number 1 in xxx_box1 and xxx_list1 imply style 1.\cr
 
 \examples{
 # COMMON WORKFLOW OF THIS PACKAGE
-# 1. type your text in any text editor
-# 2. copy your text
-# 3. call xxx_box() etc without arguments to grab text from clipboard
+#
+# 1. To insert a box of comments etc with your own text
+# 2. copy the text you want from anywhere
+# 3. call xxx_box1() etc without arguments to grab text from clipboard
 # 4. decorated text will be displayed and sent to clipboard, NO NEED to copy them
-# 5. paste into your R script
-#
-#
+# 5. paste it into your R script
 #...............................................
-# # OTHER USAGE
+# # SPECIFIC USAGE EXAMPLE:
 
 xxx_box('test sentence, test sentence, test sentence, test sentence',center = FALSE )
 xxx_box1('test sentence, test sentence, test sentence, test sentence',center = FALSE )
