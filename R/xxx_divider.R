@@ -18,15 +18,14 @@
 #'
 #' @examples
 #' # COMMON WORKFLOW OF THIS PACKAGE
-#' # 1. type your text in any text editor
-#' # 2. copy your text
-#' # 3. call xxx_box() etc without arguments to grab text from clipboard
+#' #
+#' # 1. To insert Dividers with your own text
+#' # 2. copy the text you want from anywhere
+#' # 3. call xxx_divider1() etc without arguments to grab text from clipboard
 #' # 4. decorated text will be displayed and sent to clipboard, NO NEED to copy them
-#' # 5. paste into your R script
-#' #
-#' #
+#' # 5. paste it into your R script
 #' #...............................................
-#' # # OTHER USAGE
+#' # # SPECIFIC USAGE EXAMPLE:
 #'
 #' xxx_divider1('mystring')
 #' xxx_divider1('')

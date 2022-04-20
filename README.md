@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Who ever care about the \[art of R\] scripts?
+# Package to insert Title, Divider, and Block of Comments
 
 <!-- badges: start -->
 
@@ -10,8 +10,16 @@ status](https://travis-ci.com/Hzhang-ouce/ARTofR.svg?branch=master)](https://app
 [![R-CMD-check](https://github.com/Hzhang-ouce/ARTofR/workflows/R-CMD-check/badge.svg)](https://github.com/Hzhang-ouce/ARTofR/actions)
 <!-- badges: end -->
 
-ARTofR is designed to insert titles, divider and block of comments, for
-example:
+Have you ever typed something like this in your R script as a section
+break:
+
+``` r
+ #.........................just a example.........................
+
+```
+
+ARTofR is designed to help you do this, by auto-inserting title, divider
+and block of comments, for example:
 
 `xxx_divider1('just a example')` will give you
 

@@ -1,5 +1,5 @@
 ---
-title: "Who ever care about the (art of R) scripts?"
+title: "To Insert Title, Divider, and Block of Comments"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{User_guide}
@@ -16,14 +16,38 @@ knitr::opts_chunk$set(
 
 ## ARTofR
 
-ARTofR is designed to make comment decoration like this:
+Have you ever typed something like this in your R script as a section break:
 
-``` r
-#........................ARTofR line break.......................
+```r
 
-``` 
+ #.........................just a example.........................
 
-It is a wrapper of bannerCommenter::banner(), written with thanks to the author, Bill Venables
+
+```
+
+ARTofR is designed to help you do this, by auto-inserting title, divider and block of comments, for example:
+
+`xxx_divider1('just a example')` will give you
+
+```r
+
+ #.........................just a example.........................
+
+
+```
+
+`xxx_title2('another example')` will give you
+
+```r
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                              another example                             ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+```
+
+ARTofR is a wrapper of bannerCommenter::banner(), written with thanks to the author, Bill Venables
 
 ## Installation
 
@@ -40,7 +64,7 @@ Install the developing version of ARTofR:
 devtools::install_github("Hzhang-ouce/ARTofR")
 ```
 
-## User guide:
+## Complete user guide:
 
 **User guide at** [Hzhang-ouce-ARTofR](https://github.com/Hzhang-ouce/ARTofR)
 
